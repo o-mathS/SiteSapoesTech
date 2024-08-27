@@ -7,7 +7,7 @@ body{
   
     background-image: 
     linear-gradient(to top, rgba(0, 0, 1, 1) 60%, rgba(0, 0, 0, 0)),
-    url('sapo.jpg');
+    url('../img/sapo.jpg');
     background-size: 100%; 
     background-repeat: no-repeat; 
     background-attachment: scroll; 
@@ -89,7 +89,7 @@ margin-top: 20px;
 }
 
 .plan{
-    background-image: url('pre\ \(2\).jpg'); 
+    background-image: url('../img/pre\ \(2\).jpg'); 
     background-size: cover; 
     background-position: center; 
     width: 100%;

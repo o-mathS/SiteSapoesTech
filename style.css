@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  
+    background-image: 
+    linear-gradient(to top, rgba(0, 0, 1, 1) 60%, rgba(0, 0, 0, 0)),
+    url('sapo.jpg');
+    background-size: 100%; 
+    background-repeat: no-repeat; 
+    background-attachment: scroll; 
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: black;
+    }
+
+header {
+width: 100%;
+height: 67px;
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 41%, rgba(0,0,0,1) 44%, rgba(3,3,3,1) 67%, rgba(32,32,32,0) 100%, rgba(102,102,102,1) 100%);
+border-bottom: 2.8px green solid;
+}
+
+h2{
+color: white;
+margin-top: -45px;
+margin-left: 70px;
+}
+
+.Explorar{
+    color: white;
+    margin-top: -35px;
+    margin-left: 1150px;
+    border: 2px solid white;
+    width: 115px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'kanit',sans-serif;
+}
+
+.login{
+    background-color: black;
+    color: white;
+    margin-top: -41px;
+    margin-left: 1020px;
+    border: 2px solid black;
+    width: 115px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'kanit',sans-serif;
+}
+
+p{
+font-family: 'kanit',sans-serif;
+font-size: 30px;
+margin-left: 90px;
+color: white;
+margin-top: 16%;
+}
+
+.con{
+margin-top: 2%;
+background-color: green ;
+margin-left: 90px;
+border: 1px;
+width: 500px;
+height: 40px;
+font-size: large;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'kanit',sans-serif;
+}
+
+.pla{
+font-size: 12.5px ;
+color: white;
+margin-left: 90px;
+margin-top: 20px;
+}
+
+.plan{
+    background-image: url('pre\ \(2\).jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    width: 100%;
+    height: 100vh; 
+    margin-top: 45vh; 
+}
+
+.texto_plano{
+color: white;
+font-family: 'kanit',sans-serif;
+font-size: xx-large;
+text-align: center;
+position: absolute;
+margin-top: 150vh;
+}
